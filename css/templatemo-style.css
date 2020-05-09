@@ -34,9 +34,15 @@ h2 span
 	}
 /* end h2 */
 
+.logo-pad {
+	padding-top: 12px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
 /* start about team service portfolio contact */
-#about, #team, #service,
-#portfolio, #contact
+#issues, #candidates, #donate,
+#vote, #contact
 	{
 		padding-top: 60px;
 		padding-bottom: 40px;
@@ -246,12 +252,12 @@ header .social-icon li a
 }
 /* end home */
 
-/* start about */
-#about .media-heading-wrapper
+/* start issues */
+#issues .media-heading-wrapper
 	{
 		padding-bottom: 32px;
 	}
-#about .media-heading-wrapper .fa
+#issues .media-heading-wrapper .fa
 	{
 		border: 1px solid #fff;
 		border-radius: 2px;
@@ -264,17 +270,17 @@ header .social-icon li a
 		margin-bottom: 20px;
 		margin-right: 20px;
 	}
-#about .media-heading-wrapper h3
+#issues .media-heading-wrapper h3
 	{
 		font-size: 18px;
 		font-weight: bold;
 		padding-top: 20px;
 		padding-left: 52px;
 	}
-/* end about */
+/* end issues */
 
-/* start team */
-#team .team-wrapper
+/* start candidates */
+#candidates .team-wrapper
 	{
 		background: #404040;
 		padding-bottom: 10px;
@@ -282,17 +288,17 @@ header .social-icon li a
 		        transition: all 0.4s ease-in-out;
 		position: relative;
 	}
-#team .team-wrapper:hover
+#candidates .team-wrapper:hover
 	{
 		cursor: pointer;
 		opacity: 0.4;
 		bottom: 4px;
 	}
-#team .team-wrapper .team-des
+#candidates .team-wrapper .team-des
 	{
 		padding: 20px;
 	}
-#team .team-wrapper .team-des span
+#candidates .team-wrapper .team-des span
 	{
 		color: #28a7e9;
 		display: block;
@@ -301,23 +307,23 @@ header .social-icon li a
 	}
 /* end team */
 
-/* start service */
-#service .col-md-4
+/* start vote */
+#vote .col-md-4
 	{
 		padding: 40px;
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
 	}
-#service .col-md-4:hover
+#vote .col-md-4:hover
 	{
 		background: #505050;
 	}
-#service .active
+#vote .active
 	{
 		background: #505050;
 		padding: 40px;
 	}
-#service .fa
+#vote .fa
 	{
 		border: 1px solid #fff;
 		border-radius: 2px;
@@ -328,7 +334,7 @@ header .social-icon li a
 		line-height: 100px;
 		text-align: center;
 	}
-#service h4
+#vote h4
 	{
 		color: #28a7e9;
 		font-weight: 600;
@@ -337,12 +343,12 @@ header .social-icon li a
 	}
 /* end service */
 
-/* start portfolio */
-#portfolio
+/* start donate */
+#donate
 	{
 		padding-bottom: 80px;
 	}
-#portfolio .col-md-3
+#donate .col-md-3
 	{
 		padding: 0px;
 	}
@@ -350,13 +356,13 @@ header .social-icon li a
 	.portfolio-overlay {
 		max-width: 450px;
 	}
-#portfolio .portfolio-thumb
+#donate .portfolio-thumb
 	{
 		overflow: hidden;
 		padding: 0;
 		margin: 0 auto;
 	}
-#portfolio .portfolio-thumb .portfolio-overlay
+#donate .portfolio-thumb .portfolio-overlay
 	{
 		background: #28a7e9;
 		top: 0;
@@ -373,12 +379,12 @@ header .social-icon li a
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
 	}
-#portfolio .portfolio-thumb .portfolio-overlay h4
+#donate .portfolio-thumb .portfolio-overlay h4
 	{
 		font-weight: bold;
 		padding-bottom: 10px;
 	}
-#portfolio .portfolio-thumb .portfolio-overlay .btn
+#donate .portfolio-thumb .portfolio-overlay .btn
 	{
 		background: none;
 		border: 1px solid #fff;
@@ -386,12 +392,12 @@ header .social-icon li a
 		color: #fff;
 		font-weight: bold;
 	}
-#portfolio .portfolio-thumb:hover .portfolio-overlay
+#donate .portfolio-thumb:hover .portfolio-overlay
 	{
 		cursor: pointer;
 		opacity: 0.8;
 	}
-/* end portfolio */
+/* end donate */
 
 /* start contact */
 #contact
